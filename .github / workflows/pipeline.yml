@@ -4,5 +4,6 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      runs: echo "hello word"
+     - name: hello word
+        run: echo "hello word"
   
