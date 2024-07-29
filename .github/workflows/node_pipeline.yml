@@ -4,10 +4,5 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
       - name: hello word
-        run: node index.jv
-  
+        run: echo "hello word"
